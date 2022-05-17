@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <title>Projeto JQuery Mobile e Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Thiago de Moura Machado" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core CSS 
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    -->
+</head>
+<body>
+    <!-- Página 1 -->
+    <div data-role="page" id="pg1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header py-4">
+                        <h4 class="titHeader">JQueryMobile e Bootstrap</h4>
+                        <a class="btn btn-primary btn-sm me-3 btModal" data-bs-toggle="modal" data-bs-target="#myModal">Abrir Modal</a>
+                    </div>
+                    <div class="content">
+                        <div class="row py-1">
+                            <div class="col-md-4">
+                                <a class="btn btMenuOff my-1">Link para página 1</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#pg2" class="btn btMenu my-1">Link para página 2</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#pg3" class="btn btMenu my-1">Link para página 3</a>
+                            </div>
+                        </div>
+                        <h1 class="py-3">Página 1 título h1</h1>
+                        <img src="img/banner1.jpg" class="img-fluid banHome">
+                        <h5 class="py-3">Sub-título H5 subtítulo H5</h5>
+                        <p><b>Texto em destaque com negrito</b><br>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+                    </div>
+                    <div class="footer text-center py-4">
+                        <h4>Rodapé</h4>
+                        <p class="txtPeq1"><small>2022 Thiago Machado - Direitos Reservados</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Página 2 -->
+    <div data-role="page" id="pg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header py-4">
+                        <h4 class="titHeader">JQueryMobile e Bootstrap</h4>
+                        <a class="btn btn-primary btn-sm me-3 btModal" data-bs-toggle="modal" data-bs-target="#myModal">Abrir Modal</a>
+                    </div>
+                    <div class="content">
+                        <div class="row py-1">
+                            <div class="col-md-4">
+                                <a href="#pg1" class="btn btMenu my-1">Link para página 1</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="btn btMenuOff my-1">Link para página 2</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#pg3" class="btn btMenu my-1">Link para página 3</a>
+                            </div>
+                        </div>
+                        <h1 class="py-3">Página 2 título h1</h1>
+                        <img src="img/bannerMenor1.jpg" class="img-fluid banHome">
+                        <h5 class="py-3">Título H5 título título h5</h5>
+                        <div class="row">
+                            <div class="col-md-4 text-center p-3">
+                                <img src="img/ico_navio.png" class="img-fluid icoHome">
+                                <h5 class="pt-3">Navios</h5>
+                                <p class="txtPeq1"><small>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</small></p>
+                            </div>
+                            <div class="col-md-4 text-center p-3">
+                                <img src="img/ico_veleiro.png" class="img-fluid icoHome">
+                                <h5 class="pt-3">Veleiros</h5>
+                                <p class="txtPeq1"><small>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</small></p>
+                            </div>
+                            <div class="col-md-4 text-center p-3">
+                                <img src="img/ico_aviao.png" class="img-fluid icoHome">
+                                <h5 class="pt-3">Avião</h5>
+                                <p class="txtPeq1"><small>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer text-center py-4">
+                        <h4>Rodapé</h4>
+                        <p class="txtPeq1"><small>2022 Thiago Machado - Direitos Reservados</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Página 3 -->
+    <div data-role="page" id="pg3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header py-4">
+                        <h4 class="titHeader">JQueryMobile e Bootstrap</h4>
+                        <a class="btn btn-primary btn-sm me-3 btModal" data-bs-toggle="modal" data-bs-target="#myModal">Abrir Modal</a>
+                    </div>
+                    <div class="content">
+                        <div class="row py-1">
+                            <div class="col-md-4">
+                                <a href="#pg1" class="btn btMenu my-1">Link para página 1</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#pg2" class="btn btMenu my-1">Link para página 2</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="btn btMenuOff my-1">Link para página 3</a>
+                            </div>
+                        </div>
+                        <h1 class="py-3">Página 3 título h1</h1>
+                        <img src="img/bannerMenor2.jpg" class="img-fluid banHome">
+                        <h5 class="py-3">Título H5 título título h5</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="footer text-center py-4">
+                        <h4>Rodapé</h4>
+                        <p class="txtPeq1"><small>2022 Thiago Machado - Direitos Reservados</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <h4 class="modal-title">Modal do Bootstrap</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+            <img src="img/mesa_viajante.jpg" class="img-fluid pb-2">
+            <h5>Legenda da fotografia</h5>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
